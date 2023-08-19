@@ -1,0 +1,61 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.5rem;
+  text-align: center;
+  max-width: 50rem;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.slider button {
+  display: flex;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  position:relative;
+}
+
+.slider button:hover {
+  background-color: #555;
+}
+p .rhyme{
+  align-items: left;
+  display:contents;
+}
